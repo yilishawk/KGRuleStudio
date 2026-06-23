@@ -1,4 +1,4 @@
-﻿package com.github.kgstudio.editor;
+package com.github.kgstudio.editor;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

@@ -1,4 +1,4 @@
-﻿package com.github.kgstudio;
+package com.github.kgstudio;
 
 import android.content.ClipData;
 import android.content.ClipboardManager;

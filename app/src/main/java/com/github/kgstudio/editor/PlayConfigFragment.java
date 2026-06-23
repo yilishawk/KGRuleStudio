@@ -1,4 +1,4 @@
-﻿package com.github.kgstudio.editor;
+package com.github.kgstudio.editor;
 
 import android.content.Intent;
 import android.os.Bundle;

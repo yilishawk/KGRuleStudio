@@ -1,4 +1,4 @@
-﻿package com.github.kgstudio.util;
+package com.github.kgstudio.util;
 
 import android.content.ClipboardManager;
 import android.content.Context;
