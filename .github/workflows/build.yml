@@ -3,8 +3,6 @@ name: Build APK
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
 
 jobs:
   build:
@@ -14,15 +12,13 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: Set up JDK 17
-      uses: actions/setup-java@v4
+    - name: Build with Gradle
+      uses: gradle/actions/setup-gradle@v3
       with:
-        java-version: '17'
-        distribution: 'temurin'
-        cache: gradle
+        gradle-version: 8.8
 
-    - name: Build APK
-      run: ./gradlew assembleDebug
+    - name: Assemble Debug APK
+      run: gradle assembleDebug
       env:
         GRADLE_OPTS: -Dorg.gradle.daemon=false
 
