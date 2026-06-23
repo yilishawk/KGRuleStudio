@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">#1565C0</item>
+        <item name="colorPrimaryDark">#0D47A1</item>
+        <item name="colorAccent">#FF6D00</item>
+        <item name="materialButtonStyle">@style/Widget.KGStudio.Button</item>
+    </style>
+
+    <style name="Widget.KGStudio.Button" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">4dp</item>
+    </style>
+</resources>

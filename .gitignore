@@ -1,0 +1,28 @@
+﻿# Built application packages
+*.apk
+*.ap_
+*.aab
+
+# Built files
+*/build/
+*/app/build/
+
+# Gradle
+.gradle/
+
+# Local configuration file
+local.properties
+
+# IntelliJ
+idea/
+*.iml
+*.ipr
+*.iws
+
+# Android Studio
+.idea/
+*.jks
+
+# OS
+.DS_Store
+Thumbs.db
