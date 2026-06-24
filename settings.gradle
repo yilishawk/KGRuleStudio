@@ -1,9 +1,8 @@
-﻿pluginManagement {
+pluginManagement {
     repositories {
         google()
         mavenCentral()
         gradlePluginPortal()
     }
 }
-rootProject.name = "
-
+rootProject.name = "KGRuleStudio"
