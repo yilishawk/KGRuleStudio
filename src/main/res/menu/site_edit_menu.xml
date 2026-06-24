@@ -3,11 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/action_load"
-        android:title="¼ÓÔØJSON"
+        android:title="åŠ è½½JSON"
         app:showAsAction="never" />
     <item
         android:id="@+id/action_save"
         android:icon="@android:drawable/ic_menu_save"
-        android:title="±£´æ"
+        android:title="ä¿å­˜"
         app:showAsAction="ifRoom" />
 </menu>

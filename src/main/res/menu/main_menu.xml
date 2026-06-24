@@ -5,17 +5,17 @@
     <item
         android:id="@+id/action_new"
         android:icon="@android:drawable/ic_menu_add"
-        android:title="ÐÂ½¨Õ¾µã"
+        android:title="æ–°å»ºç«™ç‚¹"
         app:showAsAction="ifRoom" />
 
     <item
         android:id="@+id/action_import"
-        android:title="´Ó¼ôÌù°åµ¼Èë"
+        android:title="ä»Žå‰ªè´´æ¿å¯¼å…¥"
         app:showAsAction="never" />
 
     <item
         android:id="@+id/action_example"
-        android:title="¼ÓÔØÊ¾Àý"
+        android:title="åŠ è½½ç¤ºä¾‹"
         app:showAsAction="never" />
 
 </menu>
