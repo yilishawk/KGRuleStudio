@@ -3,7 +3,7 @@ package com.github.kgstudio.model;
 import java.io.Serializable;
 
 /**
- * 变量池条目（自定义变量）
+ * 鍙橀噺姹犳潯鐩紙鑷畾涔夊彉閲忥級
  */
 public class VariableEntry implements Serializable {
     private static final long serialVersionUID = 1L;

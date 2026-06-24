@@ -4,7 +4,7 @@ import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
 
 /**
- * ɸѡѡ��
+ * 筛选选项
  */
 public class FilterOption implements Serializable {
     private static final long serialVersionUID = 1L;
