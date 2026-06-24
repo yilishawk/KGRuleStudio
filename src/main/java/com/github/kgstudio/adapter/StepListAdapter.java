@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Steps ÁÐ±í Adapter
+ * Steps åˆ—è¡¨ Adapter
  */
 public class StepListAdapter extends RecyclerView.Adapter<StepListAdapter.VH> {
 
