@@ -32,14 +32,14 @@
                 android:id="@+id/btnUp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="¡ü"
+                android:text="â†‘"
                 android:padding="8dp" />
 
             <TextView
                 android:id="@+id/btnDown"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="¡ý"
+                android:text="â†“"
                 android:padding="8dp" />
 
             <TextView
@@ -61,7 +61,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:hint="URL£¨Ö§³Ö {±äÁ¿Ãû}£©">
+            android:hint="URLï¼ˆæ”¯æŒ {å˜é‡å}ï¼‰">
             <EditText
                 android:id="@+id/etStepUrl"
                 android:layout_width="match_parent"
@@ -78,7 +78,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="·½·¨: "
+                android:text="æ–¹æ³•: "
                 android:textStyle="bold"
                 android:layout_gravity="center_vertical" />
 
@@ -92,7 +92,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:layout_gravity="center_vertical"
-                android:text="GET=URL²ÎÊý  POST=Body"
+                android:text="GET=URLå‚æ•°  POST=Body"
                 android:textSize="10sp"
                 android:textColor="#999999" />
         </LinearLayout>
@@ -101,7 +101,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:hint="POST Body£¨¿ÉÑ¡£©">
+            android:hint="POST Bodyï¼ˆå¯é€‰ï¼‰">
             <EditText
                 android:id="@+id/etStepBody"
                 android:layout_width="match_parent"

@@ -50,7 +50,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ÏìÓ¦Ìå"
+            android:text="å“åº”ä½“"
             android:textStyle="bold"
             android:layout_marginTop="8dp" />
 
@@ -75,7 +75,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="±äÁ¿ÌáÈ¡½á¹û"
+            android:text="å˜é‡æå–ç»“æžœ"
             android:textStyle="bold"
             android:layout_marginTop="8dp" />
 
