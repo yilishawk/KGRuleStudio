@@ -5,6 +5,14 @@ plugins {
 android {
     namespace 'com.github.kgstudio'
     compileSdk 34
+    
+    sourceSets {
+        main {
+            java.srcDirs = ['src/main/java']
+            res.srcDirs = ['src/main/res']
+            manifest.srcFile 'src/main/AndroidManifest.xml'
+        }
+    }
 
     defaultConfig {
         applicationId "com.github.kgstudio"
