@@ -36,7 +36,16 @@ public class MainActivity extends AppCompatActivity {
         // 初始化 RecyclerView
         recyclerView = findViewById(R.id.recyclerViewSites);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        adapter = new SiteListAdapter(this::onItemClick, this::onDeleteClick);
+        adapter = new SiteListAdapter(new SiteListAdapter.OnItemClickListener() {
+            @Override
+            public void onItemClick(String key) {
+                MainActivity.this.onItemClick(key);
+            }
+            @Override
+            public void onDeleteClick(String key) {
+                MainActivity.this.onDeleteClick(key);
+            }
+        });
         recyclerView.setAdapter(adapter);
 
         loadSites();
