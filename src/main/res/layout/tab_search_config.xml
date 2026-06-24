@@ -11,7 +11,7 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="ËÑË÷·½Ê½ (search_method)">
+            android:hint="æœç´¢æ–¹å¼ (search_method)">
             <AutoCompleteTextView android:id="@+id/actvSearchMethod"
                 android:layout_width="match_parent" android:layout_height="wrap_content"
                 android:inputType="text" android:completionThreshold="1" />
@@ -21,7 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:hint="ËÑË÷URL (search_url) Àý: /index.php/vod/search/wd/{wd}.html">
+            android:hint="æœç´¢URL (search_url) ä¾‹: /index.php/vod/search/wd/{wd}.html">
             <EditText android:id="@+id/etSearchUrl" android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -30,7 +30,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:hint="POSTÌå (search_body)">
+            android:hint="POSTä½“ (search_body)">
             <EditText android:id="@+id/etSearchBody" android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>

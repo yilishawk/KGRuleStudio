@@ -11,7 +11,7 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Õ¾µãÃû³Æ (site_name)">
+            android:hint="ç«™ç‚¹åç§° (site_name)">
             <EditText android:id="@+id/etSiteName" android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:hint="·¢²¼Ò³URL (index_url)">
+            android:hint="å‘å¸ƒé¡µURL (index_url)">
             <EditText android:id="@+id/etIndexUrl" android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:inputType="textUri" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -29,7 +29,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:hint="·¢²¼Ò³ÌáÈ¡¹æÔò (index_rule)">
+            android:hint="å‘å¸ƒé¡µæå–è§„åˆ™ (index_rule)">
             <EditText android:id="@+id/etIndexRule" android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -38,7 +38,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:hint="Õ¾µãÓòÃû (site_url)">
+            android:hint="ç«™ç‚¹åŸŸå (site_url)">
             <EditText android:id="@+id/etSiteUrl" android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:inputType="textUri" />
         </com.google.android.material.textfield.TextInputLayout>

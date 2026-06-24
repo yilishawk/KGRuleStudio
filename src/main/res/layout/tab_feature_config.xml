@@ -10,11 +10,11 @@
 
         <CheckBox android:id="@+id/cbCdndefend"
             android:layout_width="wrap_content" android:layout_height="wrap_content"
-            android:text="¿ªÆôCDN¶Ü×Ô¶¯Í»ÆÆ (cdndefend)" />
+            android:text="å¼€å¯CDNç›¾è‡ªåŠ¨çªç ´ (cdndefend)" />
 
         <CheckBox android:id="@+id/cbDanmaku"
             android:layout_width="wrap_content" android:layout_height="wrap_content"
-            android:text="ÆôÓÃµ¯Ä» (danmaku)"
+            android:text="å¯ç”¨å¼¹å¹• (danmaku)"
             android:layout_marginTop="8dp" />
 
     </LinearLayout>

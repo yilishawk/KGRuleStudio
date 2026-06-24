@@ -12,7 +12,7 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="·ÖÀàÇëÇó·½Ê½ (cate_method)">
+            android:hint="åˆ†ç±»è¯·æ±‚æ–¹å¼ (cate_method)">
             <AutoCompleteTextView android:id="@+id/actvCateMethod"
                 android:layout_width="match_parent" android:layout_height="wrap_content"
                 android:inputType="text" android:completionThreshold="1" />
@@ -22,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:hint="·ÖÀàURL (cate_url) Àý: /index.php/vod/show/id/{tid}/page/{pg}.html">
+            android:hint="åˆ†ç±»URL (cate_url) ä¾‹: /index.php/vod/show/id/{tid}/page/{pg}.html">
             <EditText android:id="@+id/etCateUrl" android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -31,7 +31,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:hint="µÚ1Ò³¶ÀÁ¢URL (cate_page_1)">
+            android:hint="ç¬¬1é¡µç‹¬ç«‹URL (cate_page_1)">
             <EditText android:id="@+id/etCatePage1" android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -40,7 +40,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:hint="POSTÌå (cate_body)">
+            android:hint="POSTä½“ (cate_body)">
             <EditText android:id="@+id/etCateBody" android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -49,13 +49,13 @@
             android:layout_marginTop="12dp" android:background="#E0E0E0" />
 
         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-            android:text="ÁÐ±íÏîÅäÖÃ" android:textStyle="bold" android:layout_marginTop="8dp" />
+            android:text="åˆ—è¡¨é¡¹é…ç½®" android:textStyle="bold" android:layout_marginTop="8dp" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:hint="ÁÐ±íCSSÑ¡ÔñÆ÷ (cate_item) Àý: .myui-vodlist__item a">
+            android:hint="åˆ—è¡¨CSSé€‰æ‹©å™¨ (cate_item) ä¾‹: .myui-vodlist__item a">
             <EditText android:id="@+id/etCateItem" android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -64,7 +64,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:hint="ID×Ö¶Î (cate_id) Àý: a@href">
+            android:hint="IDå­—æ®µ (cate_id) ä¾‹: a@href">
             <EditText android:id="@+id/etCateId" android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -73,7 +73,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:hint="Ãû³Æ×Ö¶Î (cate_name) Àý: a@title">
+            android:hint="åç§°å­—æ®µ (cate_name) ä¾‹: a@title">
             <EditText android:id="@+id/etCateName" android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -82,7 +82,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:hint="Í¼Æ¬×Ö¶Î (cate_pic) Àý: a@data-original">
+            android:hint="å›¾ç‰‡å­—æ®µ (cate_pic) ä¾‹: a@data-original">
             <EditText android:id="@+id/etCatePic" android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -91,7 +91,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:hint="±¸×¢×Ö¶Î (cate_remarks)">
+            android:hint="å¤‡æ³¨å­—æ®µ (cate_remarks)">
             <EditText android:id="@+id/etCateRemarks" android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -100,7 +100,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:hint="JSONÁÐ±íÂ·¾¶ (cate_list_path) Àý: list »ò data.list">
+            android:hint="JSONåˆ—è¡¨è·¯å¾„ (cate_list_path) ä¾‹: list æˆ– data.list">
             <EditText android:id="@+id/etCateListPath" android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -109,7 +109,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:hint="ÏêÇéÒ³URLÄ£°å (detail_url)">
+            android:hint="è¯¦æƒ…é¡µURLæ¨¡æ¿ (detail_url)">
             <EditText android:id="@+id/etDetailUrl" android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -118,7 +118,7 @@
             android:layout_marginTop="12dp" android:background="#E0E0E0" />
 
         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-            android:text="·ÖÀàÁÐ±í (classes)" android:textStyle="bold" android:layout_marginTop="8dp" />
+            android:text="åˆ†ç±»åˆ—è¡¨ (classes)" android:textStyle="bold" android:layout_marginTop="8dp" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rvClasses"

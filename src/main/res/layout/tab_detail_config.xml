@@ -11,7 +11,7 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="ÏêÇé·½Ê½ (detail_method)">
+            android:hint="è¯¦æƒ…æ–¹å¼ (detail_method)">
             <AutoCompleteTextView android:id="@+id/actvDetailMethod"
                 android:layout_width="match_parent" android:layout_height="wrap_content"
                 android:inputType="text" android:completionThreshold="1" />
@@ -21,7 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:hint="ÏêÇéPOSTÌå (detail_body)">
+            android:hint="è¯¦æƒ…POSTä½“ (detail_body)">
             <EditText android:id="@+id/etDetailBody" android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -30,14 +30,14 @@
             android:layout_marginTop="8dp" android:background="#E0E0E0" />
 
         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-            android:text="×Ö¶ÎÌáÈ¡¹æÔò (Ö§³ÖCSS»òKaiGeEngine¹æÔò)"
+            android:text="å­—æ®µæå–è§„åˆ™ (æ”¯æŒCSSæˆ–KaiGeEngineè§„åˆ™)"
             android:textStyle="bold" android:layout_marginTop="8dp" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:hint="±êÌâ (dt_name) Àý: h1@text »ò .title@text">
+            android:hint="æ ‡é¢˜ (dt_name) ä¾‹: h1@text æˆ– .title@text">
             <EditText android:id="@+id/etDtName" android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -46,7 +46,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:hint="·âÃæ (dt_pic) Àý: .poster@data-original">
+            android:hint="å°é¢ (dt_pic) ä¾‹: .poster@data-original">
             <EditText android:id="@+id/etDtPic" android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -55,7 +55,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:hint="±¸×¢ (dt_remarks)">
+            android:hint="å¤‡æ³¨ (dt_remarks)">
             <EditText android:id="@+id/etDtRemarks" android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -64,7 +64,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:hint="ÑÝÔ± (dt_actor)">
+            android:hint="æ¼”å‘˜ (dt_actor)">
             <EditText android:id="@+id/etDtActor" android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -73,7 +73,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:hint="µ¼ÑÝ (dt_director)">
+            android:hint="å¯¼æ¼” (dt_director)">
             <EditText android:id="@+id/etDtDirector" android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -82,7 +82,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:hint="¼ò½é (dt_content)">
+            android:hint="ç®€ä»‹ (dt_content)">
             <EditText android:id="@+id/etDtContent" android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -91,13 +91,13 @@
             android:layout_marginTop="8dp" android:background="#E0E0E0" />
 
         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-            android:text="²¥·ÅÁÐ±íÅäÖÃ" android:textStyle="bold" android:layout_marginTop="8dp" />
+            android:text="æ’­æ”¾åˆ—è¡¨é…ç½®" android:textStyle="bold" android:layout_marginTop="8dp" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:hint="ÏßÂ·Ñ¡ÔñÆ÷ (dt_from) Àý: li[h3]">
+            android:hint="çº¿è·¯é€‰æ‹©å™¨ (dt_from) ä¾‹: li[h3]">
             <EditText android:id="@+id/etDtFrom" android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -106,7 +106,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:hint="ÁÐ±íÑ¡ÔñÆ÷ (dt_list) Àý: ul.myui-content__list">
+            android:hint="åˆ—è¡¨é€‰æ‹©å™¨ (dt_list) ä¾‹: ul.myui-content__list">
             <EditText android:id="@+id/etDtList" android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>

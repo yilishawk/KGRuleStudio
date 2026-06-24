@@ -10,13 +10,13 @@
 
         <CheckBox android:id="@+id/cbPicJump"
             android:layout_width="wrap_content" android:layout_height="wrap_content"
-            android:text="¿ªÆôÍ¼Æ¬Ìø×ªÌáÈ¡ (pic_jump)" />
+            android:text="å¼€å¯å›¾ç‰‡è·³è½¬æå– (pic_jump)" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:hint="Í¼Æ¬URLÇ°×º (pic_prefix)">
+            android:hint="å›¾ç‰‡URLå‰ç¼€ (pic_prefix)">
             <EditText android:id="@+id/etPicPrefix" android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -25,7 +25,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:hint="Í¼Æ¬URLºó×º (pic_suffix)">
+            android:hint="å›¾ç‰‡URLåŽç¼€ (pic_suffix)">
             <EditText android:id="@+id/etPicSuffix" android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -34,7 +34,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:hint="ÌáÈ¡¹æÔò (pic_extract)">
+            android:hint="æå–è§„åˆ™ (pic_extract)">
             <EditText android:id="@+id/etPicExtract" android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -43,7 +43,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:hint="Í¼Æ¬ÓòÃû²¹È« (pic_host)">
+            android:hint="å›¾ç‰‡åŸŸåè¡¥å…¨ (pic_host)">
             <EditText android:id="@+id/etPicHost" android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:inputType="textUri" />
         </com.google.android.material.textfield.TextInputLayout>
