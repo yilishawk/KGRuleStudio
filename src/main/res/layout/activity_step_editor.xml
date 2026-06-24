@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <!-- ���������� -->
+    <!-- 变量池区域 -->
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -27,18 +27,10 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="?? ������"
+                    android:text="变量池"
                     android:textStyle="bold" />
 
-                        <Button
-            android:id="@+id/btnChainTest"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            android:text="⚡ 连续测试所有 Steps"
-            android:backgroundTint="#FF6D00"
-            android:textColor="#FFFFFF" />
-<com.google.android.material.floatingactionbutton.FloatingActionButton
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
                     android:id="@+id/fabAddVar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -64,13 +56,13 @@
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 
-    <!-- Steps �б� -->
+    <!-- Steps 列表 -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="12dp"
         android:layout_marginBottom="4dp"
-        android:text="��������"
+        android:text="解析步骤"
         android:textStyle="bold"
         android:textColor="#757575" />
 
@@ -84,15 +76,16 @@
         android:paddingRight="8dp"
         android:paddingBottom="4dp" />
 
-            <Button
-            android:id="@+id/btnChainTest"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            android:text="⚡ 连续测试所有 Steps"
-            android:backgroundTint="#FF6D00"
-            android:textColor="#FFFFFF" />
-<com.google.android.material.floatingactionbutton.FloatingActionButton
+    <Button
+        android:id="@+id/btnChainTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="⚡ 连续测试全部 Steps"
+        android:backgroundTint="#FF6D00"
+        android:textColor="#FFFFFF" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fabAddStep"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -100,7 +93,7 @@
         android:layout_margin="16dp"
         android:src="@android:drawable/ic_menu_add" />
 
-    <!-- JSON Ԥ�� -->
+    <!-- JSON 预览 -->
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -116,7 +109,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="?? JSON Ԥ��"
+                android:text="📋 JSON 预览"
                 android:textStyle="bold" />
 
             <ScrollView
@@ -147,7 +140,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginEnd="4dp"
-                    android:text="����" />
+                    android:text="复制" />
 
                 <Button
                     android:id="@+id/btnCloseEditor"
@@ -155,10 +148,9 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginStart="4dp"
-                    android:text="�ر�" />
+                    android:text="关闭" />
             </LinearLayout>
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 
 </LinearLayout>
-
