@@ -12,7 +12,7 @@
             android:id="@+id/btnOpenSteps"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="?? 打开 Steps 编辑器（播放解析步骤）"
+            android:text="⚡ 打开 Steps 编辑器（播放解析步骤）"
             android:textSize="16sp"
             android:padding="16dp" />
 
@@ -28,7 +28,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:hint="动态jx配置URL (play.jx)">
+            android:hint="解析接口jx地址 (play.jx)">
             <EditText android:id="@+id/etPlayJx" android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:inputType="textUri" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -37,7 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:hint="jx线路匹配 (play_jx_list)">
+            android:hint="jx解析白名单 (play_jx_list)">
             <EditText android:id="@+id/etPlayJxList" android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -46,7 +46,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:hint="jx标题前缀 (play_jx_title)">
+            android:hint="jx匹配标题关键词 (play_jx_title)">
             <EditText android:id="@+id/etPlayJxTitle" android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -55,7 +55,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:hint="jx解析前缀 (play_jx_parse)">
+            android:hint="jx匹配解析关键词 (play_jx_parse)">
             <EditText android:id="@+id/etPlayJxParse" android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
